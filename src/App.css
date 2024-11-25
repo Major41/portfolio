@@ -1,0 +1,25 @@
+html {
+  scroll-behavior: smooth;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: aliceblue;
+  color: #01011e;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 100;
+}
+.scroll-to-top:hover {
+  opacity: 1;
+  background-color: #555;
+}

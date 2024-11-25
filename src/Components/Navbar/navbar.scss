@@ -1,0 +1,29 @@
+.navbar {
+    // position: fixed;
+
+    .wrapper {
+        height: 80px;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        span {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .social {
+            display: flex;
+            gap: 20px;
+
+            i {
+                font-size: 20px;
+            }
+        }
+
+    }
+
+}

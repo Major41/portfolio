@@ -1,0 +1,237 @@
+.servicescontainer {
+    background: linear-gradient(150deg, #0c0c1d, #111132);
+
+
+    .services {
+        width: 80%;
+        // height: 100vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+        // align-items: center;
+
+
+        .textContainer {
+            // flex: 1;
+            align-self: flex-end;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 50px;
+
+
+
+            p {
+                font-weight: 200;
+                font-size: 15px;
+                text-align: right;
+            }
+        }
+
+        .titleContainer {
+            // flex: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 0px;
+
+
+            .title {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+
+
+
+
+                b:hover {
+                    color: orange;
+                }
+
+                button {
+
+
+                    border-radius: 40px;
+                    border: none;
+                    background: orange;
+                    cursor: pointer;
+                }
+
+            }
+        }
+
+        .listContainer {
+            // flex: 2;
+            display: flex;
+            gap: 20px;
+            margin-bottom: 10px;
+
+            .box {
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                padding: 16px;
+                border: 0.5px solid gray;
+
+
+
+                button {
+                    border: none;
+                    padding: 9px 0;
+                    background: orange;
+                    cursor: pointer;
+
+                }
+
+            }
+
+            .box:hover {
+                background: #eaeaea;
+                color: rgb(10, 10, 10);
+            }
+
+
+        }
+
+        .aboutMe {
+            margin-top: 40px;
+
+            .buttons-container {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+
+                button {
+
+                    background: transparent;
+                    border: 1px solid white;
+                    border-radius: 8px;
+                    color: aliceblue;
+                    font-weight: 600;
+                    cursor: pointer;
+                }
+
+                button:hover {
+                    color: orange;
+                }
+            }
+
+            .about-main {
+                margin-top: 10px;
+
+                .about-me {
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    h3 {
+                        font-weight: 600;
+                        width: 300px;
+                        font-size: 24px;
+                    }
+
+                    p {
+                        width: 600px;
+                        border: 2px solid orange;
+                        height: auto;
+                        margin: auto 0;
+                        padding: 10px;
+                        border-radius: 10px;
+                    }
+
+                    span {
+                        font-weight: 900;
+                        color: orange;
+                    }
+                }
+
+                .education {
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    h3 {
+                        font-weight: 600;
+                        width: 300px;
+                        font-size: 24px;
+                    }
+
+                    .education-list {
+                        border: 2px solid orange;
+                        padding: 10px;
+                        border-radius: 10px;
+                    }
+
+
+                }
+
+                .experince {
+                    margin-top: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    gap: 10px;
+
+                    h3 {
+                        font-weight: 600;
+                        width: 300px;
+                        font-size: 24px;
+                    }
+
+                    .experince-list {
+                        border: 2px solid orange;
+                        padding: 10px;
+                        border-radius: 10px;
+                    }
+
+
+                }
+
+                .main-show {
+                    display: flex;
+                    gap: 20px;
+                    margin-top: 20px;
+
+                    p {
+                        padding: 12px;
+                        background: transparent;
+                        border: 1px solid orange;
+                        border-radius: 8px;
+                        color: aliceblue;
+                        font-weight: 600;
+                    }
+
+                    h2 {
+                        width: 50px;
+                    }
+
+
+                }
+
+                .my-languages {
+                    display: flex;
+                    gap: 20px;
+                    margin-top: 20px;
+
+                    p {
+                        padding: 12px;
+                        background: transparent;
+                        border: 1px solid orange;
+                        border-radius: 8px;
+                        color: aliceblue;
+                        font-weight: 600;
+                    }
+
+
+                }
+            }
+        }
+
+    }
+}
